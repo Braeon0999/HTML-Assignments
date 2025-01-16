@@ -1,0 +1,80 @@
+body.background-image {
+    font-family: Arial , sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url('img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+}
+
+header {
+    background-color:transparent;
+    color: #31809c;
+    padding: 50px 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+header  nav {
+    padding-left: 150px;
+}
+header nav a {
+    color: #31809c;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #0c526f;
+    text-decoration:none;
+}
+
+section{
+    padding: 20px;
+    text-align: center;
+}
+
+section h1, section h2 {
+    color: #418e28;
+}
+
+section p {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+div {
+    text-align: center;
+    margin: 20px 0;
+}
+
+div button {
+    background-color: #418e28;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+div button:hover {
+    background-color: #418e28;
+}
+footer {
+    background: transparent;
+    color: black;
+    text-align: center;
+    padding: .5px ;
+    margin-top: .5px;
+    font-weight: bold;
+    font-size: small;
+}
